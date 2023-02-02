@@ -32,7 +32,7 @@ public class UserDAO {
 		String SQL="SELECT from user WHERE userID = ?";
 		try {
 			//excute SQL query
-			pstmt=conn.prepareStatement(SQL); //advoid sql injection
+			pstmt=conn.prepareStatement(SQL); //avoid sql injection
 			pstmt.setString(1, userID);
 			rs=pstmt.executeQuery();
 			
