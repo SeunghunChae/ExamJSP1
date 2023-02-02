@@ -35,7 +35,7 @@
 							<a href="login.jsp">로그인</a>
 						</li>
 						<li class="active">
-							<a href="join.jsp">회원가입</a>
+							<a href="register.jsp">회원가입</a>
 						</li>
 					</ul>
 				</li>
@@ -46,7 +46,7 @@
 		<div class="col-lg-4"></div>
 		<div class="col-lg-4">
 			<div class="jumbotron" style="padding-top: 20px;">
-				<form action="joinAction.jsp" method="post">
+				<form action="registerAction.jsp" method="post">
 					<h3 style="text-align: center;">회원가입 화면</h3>
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="아이디" name="userID" maxlength="20" />
